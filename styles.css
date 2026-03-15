@@ -42,7 +42,6 @@ header{
     letter-spacing:2px;
     color:#6b4f7a;
 }
-
 .container{
     max-width: 900px;
     margin:40px auto;
@@ -106,12 +105,14 @@ table a:active{
     color:#6b4f7a;
 }
 form{
+    font-family: Lora;
     display:flex;
     flex-direction:column;
     gap:10px;
     margin-top:20px;
 }
 form label{
+    font-family: Lora;
     font-weight:bold;
     color:#6b4f7a;
 }
@@ -128,6 +129,15 @@ form select:focus{
     outline:none;
     border-color:#d6b8ff;
     box-shadow:0 0 5px rgba(180,150,255,0.4);
+}
+form textarea{
+    padding:12px;
+    border:1px solid #f1d6ff;
+    border-radius:10px;
+    background:#fff9fc;
+    font-size:14px;
+    min-height:120px;
+    font-family:Poppins;
 }
 button{
     margin-top:15px;
@@ -146,10 +156,57 @@ button:hover{
 button:active{
     background:#ffabd1;
 }
+.Profile{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.Profile img{
+    border-color: #000000;
+    border:4px solid #f0c7fc;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+}
+.social{
+    text-align:center;
+    margin-top:25px;
+}
+.social a{
+    text-decoration:none;
+    margin:0 8px;
+    padding:8px 16px;
+    background:#ffd6e7;
+    color:#6b4f7a;
+    border-radius:20px;
+    font-weight:bold;
+    transition:0.2s;
+}
+.social a:hover{
+    background:#ffc2dc;
+}
 footer{
     text-align:center;
     padding:20px;
     background:#ffd6e7;
     color:#6b4f7a;
     margin-top:40px;
+}
+.footer-social{
+    text-align:center;
+    margin-top:10px;
+}
+
+.footer-social a{
+    text-decoration:none;
+    margin:0 10px;
+    padding:6px 14px;
+    background:#ffffff;
+    color:#6b4f7a;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.footer-social a:hover{
+    background:#ffeaf3;
 }
